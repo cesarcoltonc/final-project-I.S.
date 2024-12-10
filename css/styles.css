@@ -1,0 +1,107 @@
+/* General Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #2e2e2e;
+  color: white;
+  margin: 0;
+  padding: 0;
+  font-size: 1.5em; /* Increased text size by 50% */
+}
+
+/* Header Styling */
+.header {
+  background-image: url("../Zompie.jpeg"); /* Replace with your image path */
+  background-repeat: no-repeat; /* Prevent repeating */
+  background-position: center center; /* Center the image horizontally and vertically */
+  background-size: cover; /* Ensure the image covers the entire header */
+  height: 50vh; /* Reduce height to half of the viewport */
+  display: flex; /* Use flexbox for text centering */
+  justify-content: center; /* Horizontally center the text */
+  align-items: center; /* Vertically center the text */
+  text-align: center; /* Center-align text content */
+  color: white; /* Text color */
+  text-shadow: 2px 2px 5px black; /* Add shadow for text readability */
+  padding: 0 20px; /* Add horizontal padding for spacing */
+}
+
+
+/* Navigation Styling */
+header nav a {
+  font-size: 1.2em; /* Increased nav link size slightly */
+  color: #f39c12;
+  text-decoration: none;
+  margin: 0 10px;
+}
+header nav a:hover {
+  text-decoration: underline;
+}
+
+/* Content Section Styling */
+.content {
+  max-width: 1000px;
+  margin: 40px auto; /* Increased spacing */
+  padding: 30px; /* Increased padding */
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+}
+
+/* Section Div Styling */
+.section {
+  margin-bottom: 40px; /* More room between sections */
+  padding: 30px; /* Increased padding */
+  border: 2px solid #f39c12;
+  border-radius: 5px;
+}
+
+/* Unordered and Ordered Lists */
+ul, ol {
+  font-size: 1.2em; /* Increased list size */
+  padding-left: 25px;
+}
+
+/* Video Section Styling */
+.video-section iframe {
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.tableau-section {
+  margin: 40px auto;
+  padding: 20px;
+  border: 3px solid #f39c12; /* Border size for emphasis */
+  border-radius: 15px;
+  overflow: auto; /* Prevents overflow issues */
+  max-width: 95%; /* Ensures responsiveness */
+}
+
+.tableau-section iframe {
+  width: 100%; /* Ensures the graph fits the container */
+  height: 800px; /* Adjusted for better fit */
+  display: block;
+  margin: 0 auto;
+}
+
+
+/* Image Section */
+.image-section img {
+  border-radius: 10px;
+  margin: 30px 0;
+  display: block;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px; /* Increased padding for better spacing */
+  background-color: #111;
+  color: white;
+  font-size: 1.2em; /* Increased footer text size */
+}
+footer a {
+  color: #f39c12;
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+}
